@@ -1,7 +1,46 @@
-# GW CS Senior Design Project Template
+Google Maps Android API Sample: Current Place Details
+=====================================================
 
-Use the master branch of this repository for your **working** code.  You should use the [Feature Branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) or [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) structure for your code and branches.
+This sample goes hand in hand with a tutorial for the
+[Google Maps Android API v2](https://developers.google.com/maps/documentation/android-api/current-places-tutorial).
 
-The gh-pages branch of this repository has starter files for your web page. You should upload PDF versions of all your assignments and keep your web page up to date.
+Prerequisites
+--------------
 
-**Once you understand the structure listed above, you should replace this readme with something specific to your project.**
+- Android SDK v24
+- Latest Android Build Tools
+- Android Support Repository
+
+Getting started
+---------------
+
+This sample uses the Gradle build system.
+
+1. Download the samples by cloning this repository or downloading an archived
+  snapshot. (See the options at the top of the page.)
+1. In Android Studio, create a new project and choose the "Import non-Android Studio project" or
+  "Import Project" option.
+1. Select the `CurrentPlaceDetailsOnMap` directory that you downloaded with this repository.
+1. If prompted for a gradle configuration, accept the default settings.
+  Alternatively use the "gradlew build" command to build the project directly.
+1. Add your API key to your app's `gradle.properties` file.
+  (For information on getting an API key, see the
+  [documentation](https://developers.google.com/maps/documentation/android-api/signup).)
+
+Support
+-------
+
+- Stack Overflow: https://stackoverflow.com/questions/tagged/android+google-maps
+
+If you have discovered an issue with the Google Maps Android API v2, please see
+the resources here: https://developers.google.com/maps/documentation/android-api/support
+
+If you've found an error in these samples, please file an issue:
+https://github.com/googlemaps/android-samples/issues
+
+![Analytics](https://ga-beacon.appspot.com/UA-12846745-20/android-samples-apidemos/readme?pixel)
+
+License
+-------
+
+Please refer to the [LICENSE](https://github.com/googlemaps/android-samples/blob/master/LICENSE) at the root of this repo.
